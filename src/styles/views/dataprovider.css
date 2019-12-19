@@ -1,0 +1,63 @@
+.el-input {
+  width: 100%;
+}
+
+.search-box {
+  width: 38%;
+  display: inline-block;
+}
+
+.searchClass {
+  border-radius: 20px;
+  background: #f4f4f4;
+}
+
+.searchClass .el-input-group__prepend {
+  border: none;
+  background-color: transparent;
+  padding: 0 10px 0 30px;
+}
+
+.searchClass .el-input-group__append {
+  border: none;
+  background-color: transparent;
+}
+
+.searchClass .el-input__inner {
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  background-color: transparent;
+}
+
+.searchClass .el-icon-search {
+  font-size: 16px;
+}
+
+.searchClass .centerClass {
+  height: 100%;
+  line-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.searchClass:hover {
+  background: #fff;
+}
+
+.searchClass:hover .el-icon-search {
+  color: #409eff;
+  font-size: 16px;
+}
+
+
+
+.link-type,
+.link-type:focus {
+  color: #337ab7;
+  cursor: pointer;
+}
+.link-type:hover{
+  color: rgb(32, 160, 255);
+}
